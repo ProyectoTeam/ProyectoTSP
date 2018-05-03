@@ -6,4 +6,8 @@
     <string name="txt_ejemplos">Ejemplos</string>
     <string name="txt_ejercicios">Ejercicios</string>
     <string name="txt_personalizado">Personalizado</string>
+    <string name="txt_nuevoCuestionario">Crear un nuevo cuestionario...</string>
+    <string name="txt_abrirCuestionario">Abrir un cuestionario...</string>
+    <string name="txt_eddelCuestionario">Editar/Borrar un cuestionario...</string>
+    <string name="btn_crear">Crear</string>
 </resources>
