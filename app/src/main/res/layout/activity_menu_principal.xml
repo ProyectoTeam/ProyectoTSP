@@ -6,4 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".MenuPrincipal">
 
+    <Button
+        android:id="@+id/btnAprender"
+        android:layout_width="@dimen/dim_boton_width"
+        android:layout_height="@dimen/dim_boton_height"
+        android:text="@string/txt_aprender"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEjemplos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/btnEjemplos"
+        android:layout_width="@dimen/dim_boton_width"
+        android:layout_height="@dimen/dim_boton_height"
+        android:text="@string/txt_ejemplos"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEjercicios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEjercicios"
+        android:layout_width="@dimen/dim_boton_width"
+        android:layout_height="@dimen/dim_boton_height"
+        android:text="@string/txt_ejercicios"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPersonalizado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPersonalizado"
+        android:layout_width="@dimen/dim_boton_width"
+        android:layout_height="@dimen/dim_boton_height"
+        android:text="@string/txt_personalizado"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

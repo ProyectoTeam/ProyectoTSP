@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">ProyectoTSP</string>
-    <string name="txt_bienvenida">Learn All dying</string>
-
+    <string name="txt_bienvenida">Learn All</string>
     <string name="txt_inicio">Empezar</string>
+    <string name="txt_aprender">Aprender</string>
+    <string name="txt_ejemplos">Ejemplos</string>
+    <string name="txt_ejercicios">Ejercicios</string>
+    <string name="txt_personalizado">Personalizado</string>
 </resources>
