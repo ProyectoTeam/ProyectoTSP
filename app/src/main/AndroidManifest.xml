@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuPrincipal" />
-        <activity android:name=".Teoria"></activity>
+        <activity android:name=".Teoria" />
+        <activity android:name=".Personalizado"></activity>
     </application>
 
 </manifest>
