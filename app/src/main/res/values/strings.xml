@@ -14,6 +14,9 @@
     <string name="txt_Escogeuntema">Escoge un tema</string>
     <string name="btn_crear">Crear</string>
     <string name="txt_tusmaterias">Tus materias</string>
+    <string name="btn_Aceptar">Aceptar</string>
+
+    <string name="txt_anadetusmaterias">Añade tus materias</string>
 
 
     <string name="txt_Aritmetica">Aritmetica</string>
