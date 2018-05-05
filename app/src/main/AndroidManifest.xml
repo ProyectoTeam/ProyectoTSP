@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".MenuPrincipal" />
         <activity android:name=".Personalizado" />
-        <activity android:name=".Aprender"></activity>
+        <activity android:name=".Aprender" />
+        <activity android:name=".Ejercicios" />
+        <activity android:name=".Ejemplos"></activity>
     </application>
 
 </manifest>
