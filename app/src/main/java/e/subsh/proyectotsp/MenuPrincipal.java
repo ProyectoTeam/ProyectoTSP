@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MenuPrincipal extends AppCompatActivity {
 
     Button btnPersonalizar;
+    Button btnAprender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,8 @@ public class MenuPrincipal extends AppCompatActivity {
 
         btnPersonalizar = (Button) findViewById(R.id.btnPersonalizado);
         btnPersonalizar.setOnClickListener(onClickPersonalizar);
+
+
     }
 
     public View.OnClickListener onClickPersonalizar= new View.OnClickListener() {
@@ -26,4 +29,20 @@ public class MenuPrincipal extends AppCompatActivity {
             startActivity(intentdatos);
         }
     };
+
+    public void onClickAprender(View view) {
+        Intent intentaprender=new Intent(getApplicationContext(),Aprender.class);
+        startActivity(intentaprender);
+    }
+
+    public void onClickEjemplos(View view) {
+        Intent intentaejemplos=new Intent(getApplicationContext(),Ejemplos.class);
+        startActivity(intentaejemplos);
+    }
+
+    public void onClickEjercicios(View view) {
+        Intent intentaejercicios=new Intent(getApplicationContext(),Ejercicios.class);
+        startActivity(intentaejercicios);
+    }
+
 }
