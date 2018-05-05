@@ -20,7 +20,8 @@
         <activity android:name=".Personalizado" />
         <activity android:name=".Aprender" />
         <activity android:name=".Ejercicios" />
-        <activity android:name=".Ejemplos"></activity>
+        <activity android:name=".Ejemplos" />
+        <activity android:name=".Mostrar"></activity>
     </application>
 
 </manifest>
