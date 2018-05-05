@@ -14,7 +14,7 @@ public class Ejercicios extends AppCompatActivity {
     }
 
     public void onClickMostrar(View view) {
-        Intent intentamostrar=new Intent(getApplicationContext(),Mostrar.class);
+        Intent intentamostrar=new Intent(getApplicationContext(),Ejercicio_Tipo_1.class);
         startActivity(intentamostrar);
     }
 
