@@ -9,5 +9,24 @@
     <string name="txt_nuevoCuestionario">Crear un nuevo cuestionario...</string>
     <string name="txt_abrirCuestionario">Abrir un cuestionario...</string>
     <string name="txt_eddelCuestionario">Editar/Borrar un cuestionario...</string>
+    <string name="txt_EligeunTema">Elige un tema</string>
+    <string name="txt_crear">Crear</string>
+    <string name="txt_Escogeuntema">Escoge un tema</string>
     <string name="btn_crear">Crear</string>
+    <string name="txt_tusmaterias">Tus materias</string>
+
+
+    <string name="txt_Aritmetica">Aritmetica</string>
+    <string name="txt_Algebra">Algebra</string>
+    <string name="txt_Historia">Historia</string>
+
+    <string-array name="Elige_una_materias">
+        <item>Aritmetica</item>
+        <item>Algebra</item>
+        <item>Historia</item>
+    </string-array>
+
+    <string-array name="Tus_temas">
+        <item>Ingresa materias</item>
+    </string-array>
 </resources>
