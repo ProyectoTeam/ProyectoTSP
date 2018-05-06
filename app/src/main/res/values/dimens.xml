@@ -2,5 +2,7 @@
 <resources>
     <dimen name="dim_boton_width">150dp</dimen>
     <dimen name="dim_boton_height">50dp</dimen>
+    <dimen name="dim_doble_boton_width">100dp</dimen>
+    <dimen name="dim_spinner_width">290dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 </resources>

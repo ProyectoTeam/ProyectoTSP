@@ -7,8 +7,7 @@
     <string name="txt_ejercicios">Ejercicios</string>
     <string name="txt_personalizado">Personalizado</string>
     <string name="txt_nuevoCuestionario">Crear un nuevo cuestionario...</string>
-    <string name="txt_abrirCuestionario">Abrir un cuestionario...</string>
-    <string name="txt_eddelCuestionario">Editar/Borrar un cuestionario...</string>
+    <string name="txt_abrirCuestionario">Abrir/editar/borrar un cuestionario...</string>
     <string name="txt_EligeunTema">Elige un tema</string>
     <string name="txt_crear">Crear</string>
     <string name="txt_Escogeuntema">Escoge un tema</string>
@@ -16,6 +15,9 @@
     <string name="txt_tusmaterias">Tus materias</string>
     <string name="btn_Aceptar">Aceptar</string>
     <string name="btn_Ingresar">Ingresar</string>
+    <string name="btn_Abrir">Abrir</string>
+    <string name="btn_Editar">Editar</string>
+    <string name="btn_Borrar">Borrar</string>
 
     <string name="txt_anadetusmaterias">Añade tus materias</string>
 
@@ -32,5 +34,11 @@
 
     <string-array name="Tus_temas">
         <item>Ingresa materias</item>
+    </string-array>
+
+    <string-array name="array_Cuestionarios">
+        <item>Mate primer parcial</item>
+        <item>Economia segundo parcial</item>
+        <item>Historia</item>
     </string-array>
 </resources>
