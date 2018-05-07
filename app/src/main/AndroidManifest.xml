@@ -22,7 +22,8 @@
         <activity android:name=".Ejercicios" />
         <activity android:name=".Ejemplos" />
         <activity android:name=".Mostrar" />
-        <activity android:name=".Ejercicio_Tipo_1"></activity>
+        <activity android:name=".Ejercicio_Tipo_1" />
+        <activity android:name=".ejemplo_tipo_1"></activity>
     </application>
 
 </manifest>
