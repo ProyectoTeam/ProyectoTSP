@@ -18,6 +18,10 @@
     <string name="btn_Abrir">Abrir</string>
     <string name="btn_Editar">Editar</string>
     <string name="btn_Borrar">Borrar</string>
+    <string name="btn_Terminar">Terminar</string>
+    <string name="edt_NombreCuestionario">Nombre Cuestionario</string>
+    <string name="edt_InsertarPregunta">Inserte Pregunta</string>
+    <string name="edt_InsertarRespuesta">Inserte Respuesta</string>
 
     <string name="txt_anadetusmaterias">Añade tus materias</string>
 
