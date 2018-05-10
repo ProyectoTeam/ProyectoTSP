@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MenuPrincipal">
 
+    <ImageView
+        android:id="@+id/imvFondo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.6"
+        android:background="@drawable/fondo_cerebro"
+        android:scaleType="fitCenter" />
+
     <Button
         android:id="@+id/btnAprender"
         android:layout_width="@dimen/dim_boton_width"

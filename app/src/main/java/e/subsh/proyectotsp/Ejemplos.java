@@ -14,7 +14,7 @@ public class Ejemplos extends AppCompatActivity {
     }
 
     public void onClickMostrar(View view) {
-        Intent intentamostrar=new Intent(getApplicationContext(),Mostrar.class);
+        Intent intentamostrar=new Intent(getApplicationContext(),ejemplo_tipo_1.class);
         startActivity(intentamostrar);
     }
 

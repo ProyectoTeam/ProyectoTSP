@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Ejercicio_Tipo_1">
 
+    <ImageView
+        android:id="@+id/imvFondo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.8"
+        android:background="@drawable/fondo_segundo"
+        android:scaleType="fitCenter" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"

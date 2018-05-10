@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context="e.subsh.proyectotsp.NuevoCuestionario">
 
+    <ImageView
+        android:id="@+id/imvFondo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.8"
+        android:background="@drawable/fondo_segundo"
+        android:scaleType="fitCenter" />
+
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
@@ -199,6 +208,7 @@
         android:textColor="@color/colorBotonMorado"
         android:background="@drawable/boton_morado"
         android:text="@string/btn_Terminar"
+        android:onClick="onClickTerminar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.935"
