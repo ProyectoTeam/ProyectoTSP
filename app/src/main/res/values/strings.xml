@@ -27,7 +27,7 @@
 
     <string name="btn_Siguiente">Siguiente</string>
 
-    <string name="var_extra_tema">0</string>
+    <string name="var_extra_tema">1</string>
     <string name="var_extra_subtema">0</string>
 
     <string name="txt_Aritmetica">Aritmetica</string>
