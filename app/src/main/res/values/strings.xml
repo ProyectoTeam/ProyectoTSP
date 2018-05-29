@@ -27,6 +27,8 @@
 
     <string name="btn_Siguiente">Siguiente</string>
 
+    <string name="var_extra_tema">0</string>
+    <string name="var_extra_subtema">0</string>
 
     <string name="txt_Aritmetica">Aritmetica</string>
     <string name="txt_Algebra">Algebra</string>
@@ -38,9 +40,7 @@
         <item>Historia</item>
     </string-array>
 
-    <string-array name="Tus_temas">
-        <item>Ingresa materias</item>
-    </string-array>
+
 
     <string-array name="array_Cuestionarios">
         <item>Mate primer parcial</item>

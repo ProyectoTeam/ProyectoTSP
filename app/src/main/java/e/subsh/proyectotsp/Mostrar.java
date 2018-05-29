@@ -9,5 +9,9 @@ public class Mostrar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mostrar);
+        Bundle parametros = this.getIntent().getExtras();
+
+        String [] temario ;
+        //temario[0]=parametros.getString(getResources().getString(R.string.var_extra_tema));
     }
 }
