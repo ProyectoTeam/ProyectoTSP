@@ -15,10 +15,12 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
     public static final String COLUMNA_ID="_id";
     public static final String COLUMNA_PREGUNTA="pregunta";
     public static final String COLUMNA_RESPUESTAS="respuesta";
+    public static final String COLUMNA_NOMBRE="nombre";
 
     private static final String SQL_CREAR="create table "
             + TABLA_CUESTIONARIO +"(" + COLUMNA_ID + " integer primary key autoincrement,"
             +COLUMNA_PREGUNTA + " TEXT NOT NULL,"
+            + COLUMNA_NOMBRE + " TEXT NOT NULL,"
             + COLUMNA_RESPUESTAS + " TEXT NOT NULL);";
 
 
@@ -36,7 +38,7 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
 
     //Metodos
 
-    public void Agregar(String nombre,String respuesta)
+    public void Agregar(String pregunta,String respuesta,String nombre)
     {
         SQLiteDatabase db =this.getWritableDatabase();
 
@@ -45,8 +47,9 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
 
         //Se insertan los valores por pares
 
-        values.put(COLUMNA_PREGUNTA,nombre);
+        values.put(COLUMNA_PREGUNTA,pregunta);
         values.put(COLUMNA_RESPUESTAS,respuesta);
+        values.put(COLUMNA_NOMBRE,nombre);
         //values.put(COLUMNA_IMAGEN,imagen);
 
         //Insertar
