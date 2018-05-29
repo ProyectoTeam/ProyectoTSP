@@ -2,8 +2,11 @@ package e.subsh.proyectotsp;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import java.util.ArrayList;
 
 public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
 
@@ -11,7 +14,7 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
     public static final String DATABASE_NAME="CrearCuestionarinormal.db";
 
     //NOMBRE TABLA
-    public static final String TABLA_CUESTIONARIO="Cuestionario";
+    public static final String TABLA_CUESTIONARIO="Cuestionario"; //Creado
     public static final String COLUMNA_ID="_id";
     public static final String COLUMNA_PREGUNTA="pregunta";
     public static final String COLUMNA_RESPUESTAS="respuesta";
@@ -34,6 +37,23 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion,int newVersion){
 
+    }
+
+
+    //Extare datos
+    public ArrayList<Cuestionario> extraerAlbumDataBase ()
+    {
+        ArrayList<Cuestionario> cuestionarios = new ArrayList<>();
+        String query = "SELECT * FROM " + TABLA_CUESTIONARIO;
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor registros = db.rawQuery(query, null);
+        while (registros.moveToNext())
+        {
+            Cuestionario cuestionarioctual = new Cuestionario(registros.getString(1), registros.getString(2),registros.getString(3));
+            cuestionarios.add(cuestionarioctual);
+        }
+        db.close();
+        return cuestionarios;
     }
 
     //Metodos

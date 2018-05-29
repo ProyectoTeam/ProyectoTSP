@@ -24,7 +24,15 @@
         <activity android:name=".Mostrar" />
         <activity android:name=".Ejercicio_Tipo_1" />
         <activity android:name=".ejemplo_tipo_1" />
-        <activity android:name=".NuevoCuestionario"></activity>
+        <activity android:name=".NuevoCuestionario" />
+        <activity
+            android:name=".Cuestionarios"
+            android:label="@string/title_activity_cuestionarios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fragment1"
+            android:label="@string/title_activity_fragment1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -76,10 +76,15 @@
     </string-array>
 
 
-
     <string-array name="array_Cuestionarios">
         <item>Mate primer parcial</item>
         <item>Economia segundo parcial</item>
         <item>Historia</item>
     </string-array>
+    <string name="title_activity_cuestionarios">Cuestionarios</string>
+    <string name="title_activity_fragment1">Fragment1</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
