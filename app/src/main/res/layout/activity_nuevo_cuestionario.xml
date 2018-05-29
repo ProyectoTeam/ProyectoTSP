@@ -50,14 +50,14 @@
         app:layout_constraintVertical_bias="0.14999998" />
 
     <EditText
-        android:id="@+id/InserteNombreCuestionario"
+        android:id="@+id/edtNombreCuestionario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/edt_NombreCuestionario"
+        android:hint="Nombre Cuestionario"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,14 +66,15 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <EditText
-        android:id="@+id/Pregunta1"
+        android:id="@+id/edtPregunta1"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/edt_InsertarPregunta"
+
+        android:hint="Inserte Pregunta"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,8 +86,9 @@
     <EditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:id="@+id/Respuesta1"
-        android:text="@string/edt_InsertarRespuesta"
+        android:id="@+id/edtRespuesta1"
+
+        android:hint="Inserte respuesta"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -100,14 +102,15 @@
         app:layout_constraintVertical_bias="0.536" />
 
     <EditText
-        android:id="@+id/Pregunta2"
+        android:id="@+id/edtPregunta2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/edt_InsertarPregunta"
+
+        android:hint="Inserte Pregunta"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,14 +120,15 @@
         app:layout_constraintVertical_bias="0.717" />
 
     <EditText
-        android:id="@+id/Respuesta2"
+        android:id="@+id/edtRespuesta2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/edt_InsertarRespuesta"
+
+        android:hint="Inserte Respuesta"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -198,7 +202,7 @@
         app:layout_constraintVertical_bias="0.844" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/edtGuardar"
         android:layout_width="@dimen/dim_boton_width"
         android:layout_height="@dimen/dim_boton_height"
         android:layout_marginBottom="8dp"
