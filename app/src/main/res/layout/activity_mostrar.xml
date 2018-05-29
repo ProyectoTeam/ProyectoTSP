@@ -16,8 +16,24 @@
         android:scaleType="fitCenter" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtNombreTema"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TEMA"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/dim_txt_titulos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imvFondo" />
+
+    <TextView
+        android:id="@+id/txtCuerpoTema"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -25,26 +41,14 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Aritmetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="El aritmetica define las operaciones que pueden ser realizadas con los numeros. El conjunto más basico es el de los naturales, el conjunto de los naturales esta definido por los axiomas de peano, con los axiomas podemos definir las propiedades que se pueden hacer con ellos."
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Cuerpo"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/dim_txt_cuerpos"
+        app:layout_constraintBottom_toBottomOf="@+id/imvFondo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreTema"
+        app:layout_constraintVertical_bias="0.042" />
+
 </android.support.constraint.ConstraintLayout>

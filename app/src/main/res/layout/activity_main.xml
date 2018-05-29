@@ -22,7 +22,7 @@
         android:layout_marginTop="88dp"
         android:text="@string/txt_bienvenida"
         android:textColor="@color/colorText"
-        android:textSize="30sp"
+        android:textSize="@dimen/dim_txt_titulos"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

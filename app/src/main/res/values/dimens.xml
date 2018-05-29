@@ -5,4 +5,6 @@
     <dimen name="dim_doble_boton_width">100dp</dimen>
     <dimen name="dim_spinner_width">290dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dim_txt_titulos">30sp</dimen>
+    <dimen name="dim_txt_cuerpos">20sp</dimen>
 </resources>

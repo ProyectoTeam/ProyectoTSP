@@ -27,8 +27,43 @@
 
     <string name="btn_Siguiente">Siguiente</string>
 
-    <string name="var_extra_tema">0</string>
-    <string name="var_extra_subtema">0</string>
+    <string name="var_extra_temario">0</string>
+
+    <string-array name="arraySubtemas">
+        <item>Sistema de numeración.</item>
+        <item>Lectura y escritura de números.</item>
+        <item>Comparación y ordenación de números.</item>
+        <item>La suma.</item>
+        <item>La resta.</item>
+        <item>Operaciones con paréntesis.</item>
+        <item>Multiplicación.</item>
+        <item>Propiedades.</item>
+        <item>Operaciones combinadas-</item>
+        <item>La división.</item>
+        <item>Tipo de divisiones.</item>
+        <item>Propiedades de la división exacta.</item>
+        <item>Las fracciones y sus partes.</item>
+        <item>Lectura y escritura.</item>
+        <item>Operaciones con fracciones.</item>
+    </string-array>
+
+    <string-array name="arrayCuerpos">
+        <item>Es decimal porque diez unidades de un orden forman una unidad del orden inmediato superior.\n10 U = 1 D 10 D = 1C 10C = 1 UM\nEs posicional porque el valor de una cifra depende de su posición en el número.\nLos números los podemos descomponer indicando la suma de sus diferentes órdenes, o bien, la suma del valor posicional de sus cifras.\n2,403,745 = 2 Um + 4 CM + 0 DM + 3 UM + 7 C + 4 D + 5 U\n2,403,745 = 2,000,000 + 400,000 + 3,000 + 700 + 40 + 5</item>
+        <item>Para leer o escribir con palabras un número se empieza por la izquierda leyendo o escribiendo:\n- El grupo de los millones.\n- El grupo de los millares.\n- El grupo de las unidades.\nSi algún grupo tiene ceros no se nombra.\n23,204,329 = Veintitrés millones doscientos cuatro mil trescientos veintinueve.\n4,000,207 = Cuatro millones doscientos siete.\n47,002,000 Cuarenta y siete millones dos mil.</item>
+        <item>Para ordenar números nos fijamos en:\n-Número de cifras: El número mayor será aquel que tenga más cifras y el menor, el que posea menos.\n-Valor de cada cifra; Si los números poseen el mismo número de cifras, empezando por la izquierda, vamos comparando cifra a cifra hasta que sean distintos y comparamos estos para saber cuál es el mayor. \nPara comparar utilizamos los símbolos: ">" Mayor que,  Menor que e “=” Igual que.</item>
+        <item>En la adición entre dos o más números.\nLos números que se suman se llaman sumandos y al resultado suma.\n3(sumando) + 5(sumando) = 8(suma).</item>
+        <item>La sustracción es la operación opuesta a la adición.\nLos términos de la diferencia se llaman minuendo, sustraendo y al resultado se le llama diferencia.\n50(minuendo) – 33(sustraendo) = 17(diferencia).</item>
+        <item>Se realiza primero la operación del paréntesis y después el resto.\n(230 + 52) – 25 = 282 + 52 = 334.</item>
+        <item>Una multiplicación es una suma de varios sumandos iguales.\n15 + 15 + 15 + 15 = 60 ó 15 x 4 = 60\nLos términos de la multiplicación se llaman factores y el resultado, producto.\nLos signos de la multiplicación son (x) y (.).</item>
+        <item>Conmutativa: El orden de los factores no altera el producto.\n8 x 6 = 48 ó 6 x 8 = 48\nAsociativa: Podemos agrupar los factores de diversas maneras sin que varíe el resultado.\n2 x ( 6 x 4 ) = ( 2 x 6 ) x 4\nDistributiva: El producto de un número por una suma es igual que la suma de los productos del número por los sumandos. 4 x ( 8 + 3 ) = ( 4 x 8 )+ ( 4 x 3 )\nElemento neutro: Es el 1 ya que cualquier numero multiplicado por 1 da él mismo.</item>
+        <item>Si hay paréntesis: Primero las operaciones del paréntesis, después el resto.\nSi no hay paréntesis: Primero multiplicaciones y divisiones, después sumas y restas.</item>
+        <item>Dividir es repartir una cantidad en partes iguales.</item>
+        <item>Una división es exacta cuando su resto es cero.\nUna división es entera o inexacta cuando su resto no es cero.</item>
+        <item>Si el dividendo y el divisor de una división exacta se multiplican o se dividen por el mismo número, el cociente no varía.</item>
+        <item>Los términos de una fracción son el numerador y el denominador.\nDenominador: Indica el número de partes iguales en que se divide la unidad.\nNumerador: Indica el número de partes que se toman de la unidad.</item>
+        <item>Para leer una fracción, se nombra primero el número que ocupa el numerador, y luego se expresa el denominador.\nCuando el denominador es mayor que 10, se añade la terminación –avo al número del denominador.</item>
+        <item>Suma de fracciones de igual denominador: Se suman los numeradores y el denominador se deja igual.\n Resta de fracciones de igual denominador: Se restan los numeradores y el denominador se deja igual.\n Suma y resta de fracciones con distinto denominador: Se buscan fracciones equivalentes con el mismo denominador y se opera.</item>
+    </string-array>
 
     <string name="txt_Aritmetica">Aritmetica</string>
     <string name="txt_Algebra">Algebra</string>

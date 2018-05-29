@@ -34,8 +34,7 @@ public class Aprender extends AppCompatActivity {
                                         long id) {
 
                 Intent intentdatos= new Intent(Aprender.this, Mostrar.class);
-                intentdatos.putExtra(getResources().getString(R.string.var_extra_tema),groupPosition);
-                intentdatos.putExtra(getResources().getString(R.string.var_extra_subtema),childPosition);
+                intentdatos.putExtra(getResources().getString(R.string.var_extra_temario),String.valueOf(groupPosition) + String.valueOf(childPosition));
                 startActivity(intentdatos);
 
                 return false;
@@ -51,7 +50,7 @@ public class Aprender extends AppCompatActivity {
                 "Multiplicación de números naturales", "División de números naturales", "Las fracciones" };
         private String[][] children = { { "Sistema de numeración", "Lectura y escritura de números", "Comparación y ordenación de números" },
                 { "La suma", "La resta", "Operaciones con paréntesis" }, { "Multiplicación", "Propiedades", "Operaciones combinadas" },
-                { "La división", "Tipo de divisiones", "Propiedades de la división exacta" }, { "Las fracciones y sus partes", "Lectura y escritura", "Operaciones con fraccines" } };
+                { "La división", "Tipo de divisiones", "Propiedades de la división exacta" }, { "Las fracciones y sus partes", "Lectura y escritura", "Operaciones con fracciones" } };
 
         public Object getChild(int groupPosition, int childPosition) {
             return children[groupPosition][childPosition];
