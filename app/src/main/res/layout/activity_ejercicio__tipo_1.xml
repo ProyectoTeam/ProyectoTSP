@@ -13,7 +13,9 @@
         android:layout_gravity="center_vertical"
         android:alpha="0.8"
         android:background="@drawable/fondo_segundo"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/textView6"
