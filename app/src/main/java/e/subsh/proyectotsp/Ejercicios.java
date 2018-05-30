@@ -32,7 +32,7 @@ public class Ejercicios extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 valorTemaActual = position;
-                Toast.makeText(getApplicationContext(),"Valor: " + valorTemaActual, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(),"Valor: " + valorTemaActual, Toast.LENGTH_SHORT).show();
             }
         };
     }
