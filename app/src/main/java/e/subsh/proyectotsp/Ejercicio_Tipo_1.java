@@ -30,7 +30,7 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
         String[][] p=db.leer();
 
 
-        Toast.makeText(getApplicationContext(),p[id][0].toString(),Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),p[id][2].toString(),Toast.LENGTH_LONG).show();
         txtpregunta.setText(p[id][1].toString());
         Respuesta=p[id][2];
 

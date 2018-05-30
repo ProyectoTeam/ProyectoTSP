@@ -20,6 +20,12 @@ public class Ejercicios extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicios);
 
+        BaseDatos_Cuestionario db=new BaseDatos_Cuestionario(getApplicationContext());
+
+        String[][] p=db.leer();
+
+
+
         arrayTemas = getResources().getStringArray(R.array.arrayTemas);
         lstvTemas = findViewById(R.id.lstvEjercicios);
         lstvTemas.setOnItemClickListener(ItemListener());
@@ -32,14 +38,18 @@ public class Ejercicios extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 valorTemaActual = position;
+
+                Intent intentamostrar=new Intent(getApplicationContext(),Ejercicio_Tipo_1.class);
+                intentamostrar.putExtra("id", valorTemaActual);
+                startActivity(intentamostrar);
+
                 //Toast.makeText(getApplicationContext(),"Valor: " + valorTemaActual, Toast.LENGTH_SHORT).show();
             }
         };
     }
 
     /*public void onClickMostrar(View view) {
-        Intent intentamostrar=new Intent(getApplicationContext(),Ejercicio_Tipo_1.class);
-        startActivity(intentamostrar);
+
     }*/
 
 
