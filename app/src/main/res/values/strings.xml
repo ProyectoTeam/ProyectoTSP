@@ -55,6 +55,7 @@
         <item>Lectura y escritura.</item>
         <item>Operaciones con fracciones.</item>
     </string-array>
+
     <string-array name="arraySubtemasEjemplo">
         <item>Sistema de numeración.</item>
         <item>Lectura y escritura de números.</item>

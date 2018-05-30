@@ -141,7 +141,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/boton_morado"
+        android:background="@drawable/lapiz_boton"
         android:onClick="onClickTerminar"
         android:text="@string/btn_Terminar"
         android:textColor="@color/colorBotonMorado"
