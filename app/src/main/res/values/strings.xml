@@ -62,7 +62,25 @@
         <item>Si el dividendo y el divisor de una división exacta se multiplican o se dividen por el mismo número, el cociente no varía.</item>
         <item>Los términos de una fracción son el numerador y el denominador.\nDenominador: Indica el número de partes iguales en que se divide la unidad.\nNumerador: Indica el número de partes que se toman de la unidad.</item>
         <item>Para leer una fracción, se nombra primero el número que ocupa el numerador, y luego se expresa el denominador.\nCuando el denominador es mayor que 10, se añade la terminación –avo al número del denominador.</item>
-        <item>Suma de fracciones de igual denominador: Se suman los numeradores y el denominador se deja igual.\n Resta de fracciones de igual denominador: Se restan los numeradores y el denominador se deja igual.\n Suma y resta de fracciones con distinto denominador: Se buscan fracciones equivalentes con el mismo denominador y se opera.</item>
+        <item>Suma de fracciones de igual denominador: Se suman los numeradores y el denominador se deja igual.\n Resta de fracciones de igual denominador: Se restan los numeradores y el denominador se deja igual.\n Suma y resta de fracciones con distinto denominador:  </item>
+    </string-array>
+
+    <string-array name="arrayCuerposEjemplos">
+        <item>prte 1</item>
+        <item>parte 2</item>
+        <item>Parte 3 </item>
+        <item>Parte 4</item>
+        <item>parte 5</item>
+        <item>parte 6</item>
+        <item>parte 7.</item>
+        <item>parte 8</item>
+        <item>parte 9.</item>
+        <item>parte 10</item>
+        <item>parte 11</item>
+        <item>parte 12.</item>
+        <item>parte 13</item>
+        <item>parte 14</item>
+        <item>parye 15</item>
     </string-array>
 
     <string name="txt_Aritmetica">Aritmetica</string>
