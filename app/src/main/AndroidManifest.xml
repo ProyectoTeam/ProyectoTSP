@@ -17,8 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuPrincipal" />
+
         <activity android:name=".Personalizado" />
         <activity android:name=".Aprender" />
+
         <activity android:name=".Ejercicios" />
         <activity android:name=".Ejemplos" />
         <activity android:name=".Mostrar" />
@@ -34,5 +36,9 @@
             android:label="@string/title_activity_fragment1"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
+
+
+
+
 
 </manifest>

@@ -20,6 +20,13 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
     public static final String COLUMNA_RESPUESTAS="respuesta";
     public static final String COLUMNA_NOMBRE="nombre";
 
+    //Tabla contador
+
+
+
+
+    public int contadorb=5;
+
     private static final String SQL_CREAR="create table "
             + TABLA_CUESTIONARIO +"(" + COLUMNA_ID + " integer primary key autoincrement,"
             +COLUMNA_PREGUNTA + " TEXT NOT NULL,"
@@ -31,7 +38,11 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+    public int Elementos()
+    {
 
+        return extraerAlbumDataBase().size();
+    }
 
     public void onCreate(SQLiteDatabase db){
         db.execSQL(SQL_CREAR);

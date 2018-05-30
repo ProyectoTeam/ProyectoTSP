@@ -52,6 +52,8 @@ public class NuevoCuestionario extends AppCompatActivity {
 
         db.ActualizarDB(values);
 
+
+
         //BaseDatos_Cuestionario db=new BaseDatos_Cuestionario(context);
         
         

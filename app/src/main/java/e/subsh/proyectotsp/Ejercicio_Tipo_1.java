@@ -13,6 +13,9 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
     EditText edtRespuesta;
     TextView txtpregunta;
     String Respuesta;
+    int id;
+    String[][] p;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +26,11 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
         txtpregunta=findViewById(R.id.txtpreg);
 
         Bundle datos = this.getIntent().getExtras();
-        int id = datos.getInt("id");
+       id = datos.getInt("id");
 
         BaseDatos_Cuestionario db=new BaseDatos_Cuestionario(getApplicationContext());
 
-        String[][] p=db.leer();
+        p=db.leer();
 
 
         Toast.makeText(getApplicationContext(),p[id][2].toString(),Toast.LENGTH_LONG).show();
@@ -42,7 +45,7 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
 
 
 
-        if (edtRespuesta.getText().toString().compareTo("condicional")==0)
+        if (edtRespuesta.getText().toString().compareTo(p[id][2])==0)
             {
                 Toast.makeText(getApplicationContext(),"Correcto",Toast.LENGTH_LONG).show();
             }

@@ -10,10 +10,14 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnEmpezar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         btnEmpezar = (Button) findViewById(R.id.btnIniciar);
         btnEmpezar.setOnClickListener(onClickEmpezar);

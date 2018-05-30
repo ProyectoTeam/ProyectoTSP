@@ -3,6 +3,7 @@ package e.subsh.proyectotsp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -22,11 +23,24 @@ public class Ejercicios extends AppCompatActivity {
 
         BaseDatos_Cuestionario db=new BaseDatos_Cuestionario(getApplicationContext());
 
+
+
+        int usoto=  db.Elementos();
+
+        Log.i("Llega aqui", "onCreate: "+usoto);
+
+        String[] p_nombres=new String[usoto];
+
+
+
+
         String[][] p=db.leer();
+        for(int i=0;i<=usoto-1;i++) {
+            p_nombres[i] = p[i][0];
+        }
+        arrayTemas=p_nombres;
 
-
-
-        arrayTemas = getResources().getStringArray(R.array.arrayTemas);
+       //arrayTemas = getResources().getStringArray(R.array.arrayTemas);
         lstvTemas = findViewById(R.id.lstvEjercicios);
         lstvTemas.setOnItemClickListener(ItemListener());
         ArrayAdapter<String> AdapterTemas = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1,arrayTemas);
