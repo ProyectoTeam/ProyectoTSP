@@ -28,6 +28,7 @@
     <string name="btn_Siguiente">Siguiente</string>
 
     <string name="var_extra_temario">0</string>
+    <string name="var_extra_temarioEjemplo">1</string>
 
     <string-array name="arraySubtemas">
         <item>Sistema de numeración.</item>
