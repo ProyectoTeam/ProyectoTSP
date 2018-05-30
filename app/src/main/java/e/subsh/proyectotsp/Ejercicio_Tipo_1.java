@@ -19,7 +19,7 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
     int id;
     String[][] p;
     ImageView Resultado;
-
+    Button btnContinuar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,10 +30,12 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
         txtpregunta=findViewById(R.id.txtpreg);
         Resultado=findViewById(R.id.imvFondoej);
         btnAceptar=findViewById(R.id.btnIngresar);
+        btnContinuar=findViewById(R.id.btnContinuar);
 
 
         btnAceptar.setVisibility(View.VISIBLE);
         edtRespuesta.setVisibility(View.VISIBLE);
+        btnContinuar.setVisibility(View.INVISIBLE);
 
 
         Resultado.setImageResource(R.drawable.fondo_segundo);
@@ -64,6 +66,8 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
                 Resultado.setImageResource(R.drawable.robot_con_un_simbolo_correcto_1048_3537);
                 edtRespuesta.setVisibility(View.INVISIBLE);
                 btnAceptar.setVisibility(View.INVISIBLE);
+                txtpregunta.setText("Correcto :3");
+                btnContinuar.setVisibility(View.VISIBLE);
 
             }
         else
@@ -71,8 +75,17 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Incorrecto",Toast.LENGTH_LONG).show();
                 Resultado.setImageResource(R.drawable.sigue);
                 edtRespuesta.setVisibility(View.INVISIBLE);
+                txtpregunta.setText("Sigue intentando");
                 btnAceptar.setVisibility(View.INVISIBLE);
+                btnContinuar.setVisibility(View.VISIBLE);
             }
     }
+
+    public void onClickContinuar(View view)
+    {
+        Intent volver=new Intent(getApplicationContext(),MenuPrincipal.class);
+        startActivity(volver);
+    }
+
 
 }
