@@ -39,7 +39,7 @@ public class NuevoCuestionario extends AppCompatActivity {
     }
 
     public void onClickTerminar(View view) {
-        Intent intentterminar = new Intent(getApplicationContext(),Personalizado.class);
+        Intent intentterminar = new Intent(getApplicationContext(),MenuPrincipal.class);
 
          Context context;
          context=getApplicationContext();

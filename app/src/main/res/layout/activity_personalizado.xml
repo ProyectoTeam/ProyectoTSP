@@ -82,6 +82,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/boton_rojo"
         android:text="@string/btn_Borrar"
+        android:onClick="OnClickBorrarCuestionario"
         android:textColor="@color/colorBotonMorado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

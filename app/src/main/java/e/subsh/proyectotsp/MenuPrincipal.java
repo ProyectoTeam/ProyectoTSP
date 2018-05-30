@@ -42,6 +42,7 @@ public class MenuPrincipal extends AppCompatActivity {
 
     public void onClickEjercicios(View view) {
         Intent intentaejercicios=new Intent(getApplicationContext(),Ejercicios.class);
+        intentaejercicios.putExtra("Eliminar",false);
         startActivity(intentaejercicios);
     }
 

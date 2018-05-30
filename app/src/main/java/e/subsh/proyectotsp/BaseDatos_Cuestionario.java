@@ -132,4 +132,14 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
 
 
 
+    public void Eliminar(String index)
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+            db.delete(TABLA_CUESTIONARIO,"nombre = ?",new String[]{index});
+
+    }
+
+
+
 }
