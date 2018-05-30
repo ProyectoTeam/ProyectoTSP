@@ -21,7 +21,7 @@ public class Mostrar extends AppCompatActivity {
 
         String temario;
         temario = parametros.getString(getResources().getString(R.string.var_extra_temario));
-        Toast.makeText(getApplicationContext(),"Tema: "+ temario,Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"Tema: "+ temario,Toast.LENGTH_SHORT).show();
 
         txtSubtema = findViewById(R.id.txtNombreTema);
         txtCuerpo = findViewById(R.id.txtCuerpoTema);

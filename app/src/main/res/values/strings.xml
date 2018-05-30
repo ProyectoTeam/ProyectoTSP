@@ -30,6 +30,14 @@
     <string name="var_extra_temario">0</string>
     <string name="var_extra_temarioEjemplo">1</string>
 
+    <string-array name="arrayTemas">
+        <item>Números naturales</item>
+        <item>Suma y Resta de números naturales</item>
+        <item>Multiplicación de números naturales</item>
+        <item>División de números naturales</item>
+        <item>Las fracciones</item>
+    </string-array>
+
     <string-array name="arraySubtemas">
         <item>Sistema de numeración.</item>
         <item>Lectura y escritura de números.</item>
@@ -54,7 +62,7 @@
         <item>Para ordenar números nos fijamos en:\n-Número de cifras: El número mayor será aquel que tenga más cifras y el menor, el que posea menos.\n-Valor de cada cifra; Si los números poseen el mismo número de cifras, empezando por la izquierda, vamos comparando cifra a cifra hasta que sean distintos y comparamos estos para saber cuál es el mayor. \nPara comparar utilizamos los símbolos: ">" Mayor que,  Menor que e “=” Igual que.</item>
         <item>En la adición entre dos o más números.\nLos números que se suman se llaman sumandos y al resultado suma.\n3(sumando) + 5(sumando) = 8(suma).</item>
         <item>La sustracción es la operación opuesta a la adición.\nLos términos de la diferencia se llaman minuendo, sustraendo y al resultado se le llama diferencia.\n50(minuendo) – 33(sustraendo) = 17(diferencia).</item>
-        <item>Se realiza primero la operación del paréntesis y después el resto.\n(230 + 52) – 25 = 282 + 52 = 334.</item>
+        <item>Se realiza primero la operación del paréntesis y después el resto.\n(230 + 52) – 25 = 282 - 25 = 257.</item>
         <item>Una multiplicación es una suma de varios sumandos iguales.\n15 + 15 + 15 + 15 = 60 ó 15 x 4 = 60\nLos términos de la multiplicación se llaman factores y el resultado, producto.\nLos signos de la multiplicación son (x) y (.).</item>
         <item>Conmutativa: El orden de los factores no altera el producto.\n8 x 6 = 48 ó 6 x 8 = 48\nAsociativa: Podemos agrupar los factores de diversas maneras sin que varíe el resultado.\n2 x ( 6 x 4 ) = ( 2 x 6 ) x 4\nDistributiva: El producto de un número por una suma es igual que la suma de los productos del número por los sumandos. 4 x ( 8 + 3 ) = ( 4 x 8 )+ ( 4 x 3 )\nElemento neutro: Es el 1 ya que cualquier numero multiplicado por 1 da él mismo.</item>
         <item>Si hay paréntesis: Primero las operaciones del paréntesis, después el resto.\nSi no hay paréntesis: Primero multiplicaciones y divisiones, después sumas y restas.</item>
