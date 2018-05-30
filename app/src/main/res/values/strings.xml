@@ -95,18 +95,18 @@
         <item>Ejemplos de posicionamiento:\n\n\n1.- 575 = 5C + 7D + 5U = 500 + 70 + 5 = 575\n2.- 1547 = 1Um + 5C + 4D + 7U = 1000 + 500 + 40 + 7 = 1547\n3.- 12654 = 1Dm + 2Um + 6C + 5D + 4U = 10000 + 2000 + 600 + 50 + 4 = 12554 </item>
         <item>Ejemplos de lectura y escritura de numeros:\n\n\n1.- 23 = Veintitrés\n2.- 356 = trescientos cincuenta y seis\n3.- 4001 = cuatro mil uno\n4.- 32089 = treinta y dos mil ochenta y nueve\n5.- 1000043 = Un millón cuarenta y trés</item>
         <item>Ejemplos de comparar y ordenar números\n\n\n1.- 454 mayor a 56 ?\nPaso 1: Como 454 posee mayor número de cifras, 454 es mayor a 56 \n\n2.- 356 es mayor a 278 ?\nPaso 1: See tiene igualdad en el número de cifras\nPaso 2: Si se compara el primer número de la primera cifra de izquierda a derecha se tiene que 3 es mayor a 2, por lo tanto 356 es mayor a 278 \n\n3.- 1234 es mayor a 1224? \nPaso 1: See tiene igualdad en el número de cifras\nPaso 2: Si se compara el número de la primera cifra de izquierda a derecha, pero son iguales\nPaso 3: Si se compara la siguiente cifra de izquierda a derecha se tiene que 3 es mayor a 2, por lo tanto 1234 es mayor a 1224  </item>
-        <item>Ejemplos de redondeo\n</item>
-        <item>parte 5</item>
-        <item>parte 6</item>
-        <item>parte 7.</item>
-        <item>parte 8</item>
-        <item>parte 9.</item>
-        <item>parte 10</item>
-        <item>parte 11</item>
-        <item>parte 12.</item>
-        <item>parte 13</item>
-        <item>parte 14</item>
-        <item>parye 15</item>
+        <item>Ejemplos de sumas:\n\n1234\n 456\n------\n1690\n\n\n\n324\n765\n-----\n1089\n\n\n\n2345\n1247\n  23\n-------\n3615</item>
+        <item>Ejemplos de restas:\n\n589\n376\n-----\n213\n\n\n1049\n  98\n-------\n 951\n\n\n854\n 22\n-----\n832</item>
+        <item>Ejemplos con paréntesis:\n\n(8+4)-3=(12)-3=9\n\n7-(6+1)-2=7-(7)-2=-2\n\n(2+1)-8-(2+2)=(3)-8-(4)=9</item>
+        <item>Ejemplos con multiplicación:\n\n 45\n  5\n----\n225\n\n 7\n12\n-----\n84\n\n 58\n  4\n----\n232</item>
+        <item>Ejemplos de propiedades:\n\nConmutativa\n10*5=5*10=50\n6*4=4*6=24\n\nAsociativa\n(5*8*)*2=5*(8*2)\n (40)*2=5*(16)\n  80=80\n\nDistributiva\n3*(4+5)=(3*4)+(3*5)\n3*(9) = (12)+(15)\n   27=27 </item>
+        <item>Ejemplos operaciones combinadas\n\n(3+4)*3=(7)*3=21\n3+4*3=3+12=15\n\n\n(8*4)+3*2=(32)+6=38\n8*4+3*2=32+6=38</item>
+        <item>Ejemplos división:\n\n4/2=2\n5/2=2.5\n400/20=5\n45/8=5.625</item>
+        <item>Ejemplos tipos división:\n\nExacta:\n12/2=6\n6/1=1\n324/18=18\n\nInexacta:\n6/4=1.5\n14/5=2.8</item>
+        <item>Ejemplos propiedades de la division exacta:\n\n28/4=7\n28(2)/4(2)=7\n28(23)/4(23)=7</item>
+        <item>Ejemplos de fracciones:\n\n15/23\n6?7\n77/54\n43/65</item>
+        <item>Ejemplos de lectura y escritura:\n\n2/5 = dos quintos\n3/4 = tres quartos\n9/13=  nueve tresceavos\n7/8 = siete octavos</item>
+        <item>Ejemplos operaciones con fracciones:\n\n5/8 + 3/8 = 8/8 = 1\n\n3/4 + 5/6 = ((18)+(20))/(24) = 19/12\n\n1/10 * 5/3 = 5/30 = 1/6</item>
     </string-array>
 
     <string name="txt_Aritmetica">Aritmetica</string>
