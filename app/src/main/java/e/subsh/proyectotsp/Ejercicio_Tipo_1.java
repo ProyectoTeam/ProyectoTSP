@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,9 +14,11 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
 
     EditText edtRespuesta;
     TextView txtpregunta;
+    Button btnAceptar;
     String Respuesta;
     int id;
     String[][] p;
+    ImageView Resultado;
 
 
     @Override
@@ -24,6 +28,15 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
 
         edtRespuesta=(EditText)findViewById(R.id.edtAnswer);
         txtpregunta=findViewById(R.id.txtpreg);
+        Resultado=findViewById(R.id.imvFondoej);
+        btnAceptar=findViewById(R.id.btnIngresar);
+
+
+        btnAceptar.setVisibility(View.VISIBLE);
+        edtRespuesta.setVisibility(View.VISIBLE);
+
+
+        Resultado.setImageResource(R.drawable.fondo_segundo);
 
         Bundle datos = this.getIntent().getExtras();
        id = datos.getInt("id");
@@ -47,11 +60,18 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
 
         if (edtRespuesta.getText().toString().compareTo(p[id][2])==0)
             {
-                Toast.makeText(getApplicationContext(),"Correcto",Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(),"Correcto",Toast.LENGTH_LONG).show();
+                Resultado.setImageResource(R.drawable.robot_con_un_simbolo_correcto_1048_3537);
+                edtRespuesta.setVisibility(View.INVISIBLE);
+                btnAceptar.setVisibility(View.INVISIBLE);
+
             }
         else
             {
                 Toast.makeText(getApplicationContext(),"Incorrecto",Toast.LENGTH_LONG).show();
+                Resultado.setImageResource(R.drawable.sigue);
+                edtRespuesta.setVisibility(View.INVISIBLE);
+                btnAceptar.setVisibility(View.INVISIBLE);
             }
     }
 

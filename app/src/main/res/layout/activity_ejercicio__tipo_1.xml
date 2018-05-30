@@ -7,7 +7,7 @@
     tools:context=".Ejercicio_Tipo_1">
 
     <ImageView
-        android:id="@+id/imvFondo"
+        android:id="@+id/imvFondoej"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_gravity="center_vertical"
@@ -15,7 +15,9 @@
         android:background="@drawable/fondo_segundo"
         android:scaleType="fitCenter"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="32dp"
+
+        />
 
     <TextView
         android:id="@+id/textView6"
