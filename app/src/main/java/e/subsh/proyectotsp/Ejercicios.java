@@ -76,6 +76,9 @@ public class Ejercicios extends AppCompatActivity {
                     String tmp = p_nombres[valorTemaActual];
 
                     db2.Eliminar(tmp);
+
+                    Intent intentamostrar = new Intent(getApplicationContext(), MenuPrincipal.class);
+                    startActivity(intentamostrar);
                 }
                 //Toast.makeText(getApplicationContext(),"Valor: " + valorTemaActual, Toast.LENGTH_SHORT).show();
             }
