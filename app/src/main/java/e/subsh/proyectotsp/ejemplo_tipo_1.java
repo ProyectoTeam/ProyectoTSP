@@ -21,7 +21,7 @@ public class ejemplo_tipo_1 extends AppCompatActivity {
 
         String temario;
         temario=parametros.getString(getResources().getString(R.string.var_extra_temarioEjemplo));
-        Toast.makeText(getApplicationContext(),"Tema: "+ temario,Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"Tema: "+ temario,Toast.LENGTH_SHORT).show();
         txtSubtema = findViewById(R.id.txtNombreTemaEjemplo);
         txtCuerpo=findViewById(R.id.txtCuerpoTemaEjemplo);
         subtemas=getResources().getStringArray(R.array.arraySubtemasEjemplo);
