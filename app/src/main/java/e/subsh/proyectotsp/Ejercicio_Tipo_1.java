@@ -12,6 +12,7 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
 
     EditText edtRespuesta;
     TextView txtpregunta;
+    String Respuesta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,13 +22,18 @@ public class Ejercicio_Tipo_1 extends AppCompatActivity {
         edtRespuesta=(EditText)findViewById(R.id.edtAnswer);
         txtpregunta=findViewById(R.id.txtpreg);
 
+        Bundle datos = this.getIntent().getExtras();
+        int id = datos.getInt("id");
+
         BaseDatos_Cuestionario db=new BaseDatos_Cuestionario(getApplicationContext());
 
-        String[] p=db.leer();
+        String[][] p=db.leer();
 
 
-        Toast.makeText(getApplicationContext(),p[0].toString(),Toast.LENGTH_LONG).show();
-        txtpregunta.setText(p[0].toString());
+        Toast.makeText(getApplicationContext(),p[id][0].toString(),Toast.LENGTH_LONG).show();
+        txtpregunta.setText(p[id][1].toString());
+        Respuesta=p[id][2];
+
 
 
     }

@@ -95,8 +95,8 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
         db.close();
     }
 
-    public String[] leer(){
-        String result[]=new String[10];
+    public String[][] leer(){
+        String result[][]=new String[10][3];
         String columnas[]={"Nombre","Pregunta","Respuesta"};
         Cursor c=this.getReadableDatabase().query(TABLA_CUESTIONARIO,columnas,null,null,null,null,null);
 
@@ -107,9 +107,14 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
 
         int contador=0;
 
+
+
         for(c.moveToFirst();!c.isAfterLast();c.moveToNext()){
-            result[contador]=c.getString(id)+" "+c.getString(iu)+" "+c.getString(ip)+"\n";
+            result[contador][0]=c.getString(id);
+            result[contador][1]=c.getString(iu);
+            result[contador][2]=c.getString(ip);
             contador++;
+
         }
         return result;
     }
