@@ -31,6 +31,8 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+
+
     public void onCreate(SQLiteDatabase db){
         db.execSQL(SQL_CREAR);
     }
@@ -83,6 +85,33 @@ public class BaseDatos_Cuestionario extends SQLiteOpenHelper {
         SQLiteDatabase sqLiteDatabase=getWritableDatabase();
 
         return sqLiteDatabase.insert(TABLA_CUESTIONARIO,null,cuestionario.toContentValues());
+    }
+
+    public void ActualizarDB(ContentValues contentValues)
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.insert(TABLA_CUESTIONARIO, null,contentValues);
+
+        db.close();
+    }
+
+    public String[] leer(){
+        String result[]=new String[10];
+        String columnas[]={"Nombre","Pregunta","Respuesta"};
+        Cursor c=this.getReadableDatabase().query(TABLA_CUESTIONARIO,columnas,null,null,null,null,null);
+
+        int id,iu,ip;
+        id=c.getColumnIndex(COLUMNA_NOMBRE);
+        iu=c.getColumnIndex(COLUMNA_PREGUNTA);
+        ip=c.getColumnIndex(COLUMNA_RESPUESTAS);
+
+        int contador=0;
+
+        for(c.moveToFirst();!c.isAfterLast();c.moveToNext()){
+            result[contador]=c.getString(id)+" "+c.getString(iu)+" "+c.getString(ip)+"\n";
+            contador++;
+        }
+        return result;
     }
 
 

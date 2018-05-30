@@ -42,6 +42,7 @@ public class Cuestionarios extends AppCompatActivity {
             return fragments;
         }
 
+
         private void setUpViewPager() {
             viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(),Agregarfragments()));
             tableLayout.setupWithViewPager(viewPager);
