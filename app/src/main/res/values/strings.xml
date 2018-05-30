@@ -55,6 +55,23 @@
         <item>Lectura y escritura.</item>
         <item>Operaciones con fracciones.</item>
     </string-array>
+    <string-array name="arraySubtemasEjemplo">
+        <item>Sistema de numeración.</item>
+        <item>Lectura y escritura de números.</item>
+        <item>Comparación y ordenación de números.</item>
+        <item>La suma.</item>
+        <item>La resta.</item>
+        <item>Operaciones con paréntesis.</item>
+        <item>Multiplicación.</item>
+        <item>Propiedades.</item>
+        <item>Operaciones combinadas-</item>
+        <item>La división.</item>
+        <item>Tipo de divisiones.</item>
+        <item>Propiedades de la división exacta.</item>
+        <item>Las fracciones y sus partes.</item>
+        <item>Lectura y escritura.</item>
+        <item>Operaciones con fracciones.</item>
+    </string-array>
 
     <string-array name="arrayCuerpos">
         <item>Es decimal porque diez unidades de un orden forman una unidad del orden inmediato superior.\n10 U = 1 D 10 D = 1C 10C = 1 UM\nEs posicional porque el valor de una cifra depende de su posición en el número.\nLos números los podemos descomponer indicando la suma de sus diferentes órdenes, o bien, la suma del valor posicional de sus cifras.\n2,403,745 = 2 Um + 4 CM + 0 DM + 3 UM + 7 C + 4 D + 5 U\n2,403,745 = 2,000,000 + 400,000 + 3,000 + 700 + 40 + 5</item>
@@ -75,10 +92,10 @@
     </string-array>
 
     <string-array name="arrayCuerposEjemplos">
-        <item>prte 1</item>
-        <item>parte 2</item>
-        <item>Parte 3 </item>
-        <item>Parte 4</item>
+        <item>Ejemplos de posicionamiento:\n\n\n1.- 575 = 5C + 7D + 5U = 500 + 70 + 5 = 575\n2.- 1547 = 1Um + 5C + 4D + 7U = 1000 + 500 + 40 + 7 = 1547\n3.- 12654 = 1Dm + 2Um + 6C + 5D + 4U = 10000 + 2000 + 600 + 50 + 4 = 12554 </item>
+        <item>Ejemplos de lectura y escritura de numeros:\n\n\n1.- 23 = Veintitrés\n2.- 356 = trescientos cincuenta y seis\n3.- 4001 = cuatro mil uno\n4.- 32089 = treinta y dos mil ochenta y nueve\n5.- 1000043 = Un millón cuarenta y trés</item>
+        <item>Ejemplos de comparar y ordenar números\n\n\n1.- 454 mayor a 56 ?\nPaso 1: Como 454 posee mayor número de cifras, 454 es mayor a 56 \n\n2.- 356 es mayor a 278 ?\nPaso 1: See tiene igualdad en el número de cifras\nPaso 2: Si se compara el primer número de la primera cifra de izquierda a derecha se tiene que 3 es mayor a 2, por lo tanto 356 es mayor a 278 \n\n3.- 1234 es mayor a 1224? \nPaso 1: See tiene igualdad en el número de cifras\nPaso 2: Si se compara el número de la primera cifra de izquierda a derecha, pero son iguales\nPaso 3: Si se compara la siguiente cifra de izquierda a derecha se tiene que 3 es mayor a 2, por lo tanto 1234 es mayor a 1224  </item>
+        <item>Ejemplos de redondeo\n</item>
         <item>parte 5</item>
         <item>parte 6</item>
         <item>parte 7.</item>

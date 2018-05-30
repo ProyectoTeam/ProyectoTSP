@@ -29,7 +29,7 @@ public class Ejemplos extends AppCompatActivity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 Intent intentdatos= new Intent(Ejemplos.this,ejemplo_tipo_1.class);
-                intentdatos.putExtra(getResources().getString(R.string.var_extra_temario),String.valueOf(groupPosition) + String.valueOf(childPosition));
+                intentdatos.putExtra(getResources().getString(R.string.var_extra_temarioEjemplo),String.valueOf(groupPosition) + String.valueOf(childPosition));
                 startActivity(intentdatos);
                 return false;
             }
